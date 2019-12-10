@@ -1,0 +1,5 @@
+library("MASS")
+#print(Cars93)
+car.data=table(Cars93$Model,Cars93$AirBags)
+print(car.data)
+print(chisq.test(car.data))
