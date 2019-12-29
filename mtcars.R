@@ -1,0 +1,5 @@
+head(mtcars)
+print(mtcars$mpg)
+print(mtcars$wt)
+hist(mtcars$wt)
+hist(mtcars$mpg)
