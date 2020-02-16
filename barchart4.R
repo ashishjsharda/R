@@ -1,0 +1,5 @@
+H<-c(10,20,30,45,52,67)
+M<-c("Mar","April","May","June","July","Aug")
+png(file="barchar.png")
+barplot(H,names.arg=M,main = "bar chart",xlab="Month",ylab = "y axis",col="blue",border="red")
+dev.off()
