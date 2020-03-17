@@ -1,0 +1,6 @@
+library(survival)
+print(head(pbc))
+print(survfit(Surv(pbc$time,pbc$status ==2)~1))
+png(file ="survival.png")
+plot(survfit(Surv(pbc$time,pbc$status ==2)~1))
+dev.off()
