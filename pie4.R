@@ -1,0 +1,5 @@
+x<-c(10,20,30,40)
+labels<-c("A","B","C","D")
+png(file="pie3.png")
+pie(x,labels)
+dev.off()
