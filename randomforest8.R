@@ -1,0 +1,6 @@
+library(party)
+library(randomForest)
+print(head(readingSkills))
+output.forest<-randomForest(nativeSpeaker~ age+shoeSize + score,data=readingSkills)
+print(output.forest)
+print(importance(output.forest,type = 2)) 
