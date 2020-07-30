@@ -1,0 +1,5 @@
+data=read.csv("acme.csv")
+print(data)
+print(dim(data))
+print(nrow(data))
+print(head(data[,1:4]))
