@@ -1,0 +1,5 @@
+print(sum(20:30))
+print(mean(20:30))
+print(seq(10:100))
+print(max(10:90))
+print(min(10,2,90,0))
