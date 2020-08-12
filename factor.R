@@ -1,0 +1,5 @@
+data<-c("East","West","North","South")
+print(data)
+print(is.factor(data))
+factor_data<-factor(data)
+print(is.factor(factor_data))
