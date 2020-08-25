@@ -1,0 +1,8 @@
+library(MASS)
+help(painters)
+print(painters$School)
+help("table")
+freq=table(painters$School)
+print(freq)
+c_bind=cbind(freq)
+print(c_bind)
