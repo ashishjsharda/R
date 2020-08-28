@@ -1,0 +1,5 @@
+help(mtcars)
+attach(mtcars)
+plot(wt,mpg)
+abline(lm(wt~mpg))
+title("Regression of MPG on Weight")
