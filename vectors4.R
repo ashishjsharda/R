@@ -1,0 +1,16 @@
+x<-10:0
+x
+y<-29:19
+x+y
+x-y
+x*y
+x/y
+length(x)
+length(y)
+length(x+y)
+x<=6
+x>y
+any(x<y)
+all(x<y)
+chars<-c("Hockey","Football","Cricket")
+nchar(chars)
