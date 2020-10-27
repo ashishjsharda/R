@@ -1,0 +1,6 @@
+list1<-list(1,2,3)
+print(list1)
+list2<-list(c(1,2,3))
+print(list2)
+list3<-list(c(1,2,3),4:7)
+print(list3)
