@@ -1,0 +1,11 @@
+x<1:10
+mean(x,na.rm = TRUE)
+median(x)
+sum(x)
+sqrt(x)
+is.numeric(x)
+is.integer(x)
+date1<-as.Date("2020-11-05")
+class(date1)
+date2<-as.POSIXct("2020-11-05 8:08")
+print(date2)
