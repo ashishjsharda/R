@@ -1,0 +1,6 @@
+require(ggplot2)
+head(diamonds)
+summary(diamonds)
+sum(diamonds$price>1500)
+median(diamonds$price)
+ggplot(data=diamonds) + geom_histogram(binwidth=500, aes(x=diamonds$price)) + ggtitle("Diamond Price Distribution") + xlab("Diamond Price U$ - Binwidth 500") + ylab("Frequency") + theme_minimal() + xlim(0,2500)
