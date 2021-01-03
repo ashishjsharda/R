@@ -1,0 +1,2 @@
+require(ggthemes)
+ggplot(diamonds,aes(x=carat,y=price,color=color,shape=cut,size=depth))+geom_point()+theme_wsj()
