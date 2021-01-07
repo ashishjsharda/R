@@ -1,0 +1,7 @@
+require(ggvis)
+data(cocaine)
+head(cocaine)
+summary(cocaine)
+require(ggplot2)
+require(dplyr)
+cocaine %>% ggvis(~weight,~price) %>% layer_points()
