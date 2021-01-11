@@ -1,0 +1,6 @@
+require(ggplot2)
+require(ggvis)
+data(cocaine)
+head(cocaine)
+summary(cocaine)
+ggplot(cocaine,aes(x=weight))+geom_histogram()
