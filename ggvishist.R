@@ -1,0 +1,6 @@
+require(ggplot2)
+require(ggvis)
+data(cocaine)
+head(cocaine)
+summary(cocaine)
+cocaine%>%ggvis(~price)%>%layer_histograms()
