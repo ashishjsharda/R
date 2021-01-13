@@ -1,0 +1,7 @@
+require(devtools)
+install_github('ramnathv/rCharts')
+require(rCharts)
+head(iris)
+names(iris)<-gsub("\\.","",names(iris))
+head(iris)
+rPlot(SepalLength~SepalWidth |Species,color="Species",type="point",data = iris)
