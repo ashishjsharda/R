@@ -1,0 +1,6 @@
+require(devtools)
+install_github('ramnathv/rCharts')
+require(rCharts)
+hairEye<-as.data.frame(HairEyeColor)
+head(hairEye)
+rPlot(Freq~Hair|Eye,color="Eye",type="bar",data = hairEye)
