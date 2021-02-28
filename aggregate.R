@@ -1,0 +1,5 @@
+require(ggplot2)
+data(diamonds)
+head(diamonds)
+mean(diamonds$price)
+aggregate(price ~cut +color,diamonds,mean,na.rm=TRUE)
