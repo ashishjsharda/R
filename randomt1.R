@@ -1,0 +1,11 @@
+#round=round(2,4721)
+mean(1:100)
+a<-10
+print(typeof(a))
+print(is.complex(a))
+cvect<-c(10,12,F,"test")
+print(cvect)
+c1<-c(0.5,3)
+c2<-c(c1,5,10)
+print(c2)
+print(is.vector(c2))
