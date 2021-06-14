@@ -1,0 +1,6 @@
+age <-c(20,30,40,50)
+attributes(age)
+names(age)
+names(age)<-c("George","Rick","Mike","Joseph")
+names(age)
+attributes(age)
